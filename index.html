@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Personal Calculator</title>
+</head>
+<body>
+    <h1>The Personal Calculator</h1>
+    <div class="stat"><input id="inputs" class="inputs" type="text" placeholder="Enter a number"></div>
+    <div class="align">
+        <button onclick="clearClick()" class="buttons">C</button>
+        <button onclick="afterClick('%')" class="buttons">%</button>
+        <button onclick="eraceClick()" class="buttons">_*</button>
+        <button onclick="afterClick('+')" class="buttons">+</button>
+    </div>
+    <div class="align">
+        <button onclick="afterClick('9')" class="buttons">9</button>
+        <button onclick="afterClick('8')" class="buttons">8</button>
+        <button onclick="afterClick('7')" class="buttons">7</button>
+        <button onclick="afterClick('-')" class="buttons">-</button>
+    </div>
+    <div class="align">
+        <button onclick="afterClick('6')" class="buttons">6</button>
+        <button onclick="afterClick('5')" class="buttons">5</button>
+        <button onclick="afterClick('4')" class="buttons">4</button>
+        <button onclick="afterClick('*')" class="buttons">X</button>
+    </div>
+    <div class="align">
+        <button onclick="afterClick('3')" class="buttons">3</button>
+        <button onclick="afterClick('2')" class="buttons">2</button>
+        <button onclick="afterClick('1')" class="buttons">1</button>
+        <button onclick="afterClick('/')" class="buttons">/</button>
+    </div>
+    <div class="align">
+        <button onclick="afterClick('00')" class="buttons">00</button>
+        <button onclick="afterClick('0')" class="buttons">0</button>
+        <button onclick="afterClick('.')" class="buttons">.</button>
+        <button onclick="conClusion()" class="buttons">=</button>
+    </div>
+    <script src="calk.js"></script>
+</body>
+</html>
